@@ -35,7 +35,7 @@ def default_reclimit_handler(limit, parsed_url, recursions = ()):
 
 
 class RefResolver:
-  """Resolve JSON pointers/references in a spec."""
+  """Resolve JSON pointers/references in a spec by inlining."""
 
   def __init__(self, specs, url = None, **options):
     """
